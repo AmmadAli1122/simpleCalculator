@@ -1,9 +1,12 @@
 {
-  "name": "simplecalculator",
-  "version": "1.0.0",
+  "name": "simplecalculator376",
+  "version": "1.0.1",
   "description": "Present a \"Simple Calculator\" which can performs arithmatic operations",
   "main": "index.js",
   "type": "module",
+  "bin": {
+    "simplecalculator": "index.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
